@@ -1,0 +1,264 @@
+% Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+% Copyright 2014 Mark Szepieniec <http://github.com/mszep>
+% 
+% ConText style for making a resume with pandoc. Inspired by moderncv.
+% 
+% This CSS document is delivered to you under the CC BY-SA 3.0 License.
+% https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+
+\startmode[*mkii]
+  \enableregime[utf-8]  
+  \setupcolors[state=start]
+\stopmode
+
+% Enable hyperlinks
+\setupinteraction[state=start, color=middleblue]
+
+\setuppapersize [A4][A4]
+\setuplayout    [width=middle, height=middle,
+                 backspace=20mm, cutspace=0mm,
+                 topspace=20mm, bottomspace=20mm,
+                 header=0mm, footer=0mm]
+
+%\setuppagenumbering[location={footer,center}]
+
+\setupbodyfont[Cambria]
+
+
+\setupwhitespace[medium]
+
+\setupcolor[hex]
+\definecolor[titlegrey][h=757575]
+\definecolor[sectioncolor][h=709cb7]
+\definecolor[rulecolor][h=709cb7]
+
+\setupblackrules[width=25mm, color=rulecolor]
+
+\setuphead[chapter]      [style=\tfd]
+\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
+\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
+                          before={\leavevmode\blackrule\hspace}]
+\setuphead[subsubsection][style=\bf]
+
+\setuphead[chapter, section, subsection, subsubsection][number=no]
+
+%\setupdescriptions[width=10mm]
+
+\definedescription
+  [description]
+  [headstyle=bold, style=normal,
+   location=hanging, width=18mm, distance=14mm, margin=0cm]
+
+\setupitemize[autointro, packed]    % prevent orphan list intro
+\setupitemize[indentnext=no]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
+
+\setuptables[textwidth=max, HL=none]
+
+\setupthinrules[width=15em] % width of horizontal rules
+
+\setupdelimitedtext
+  [blockquote]
+  [before={\setupalign[middle]},
+   indentnext=no,
+  ]
+
+
+\starttext
+
+\section[aytuğ-murat-aydin]{Aytuğ Murat AYDIN}
+
+\thinrule
+
+\startblockquote
+Generalist Software Engineer, experienced in full stacked development
+experience, in search of new challenge.
+\stopblockquote
+
+\thinrule
+
+\subsection[education]{Education}
+
+\startdescription{2010-2012 (No Graduation)}
+  {\bf MSC, Computer Science}; Bilkent University (Ankara/Turkey)
+
+  {\em Thesis title: Software Architectural Analysis of Simulation
+  Systems}
+\stopdescription
+
+\startdescription{2005-2010}
+  {\bf BSc, Computer Science}; Bilkent University (Ankara/Turkey)
+
+  {\em CGPA: 3.12}
+\stopdescription
+
+\subsection[experience]{Experience}
+
+{\bf Onur Inc. (July 2014-):}
+
+\startitemize
+\item
+  Developed Rest Webservice Framework with Python and Flask
+\item
+  Full Stacked Development with Backbone.js, Django and Node.js
+\stopitemize
+
+{\bf KorvusSoft (April 2013- July 2014):}
+
+\startitemize
+\item
+  Involved in design and development of Zettabahn project. Zettabahn
+  offers big data platform that accepts incoming stream of tupples to
+  make analytic operations and stores them in distributed fashion. It
+  uses Hadoop for DFS, HBase as NoSQL solution, Twitter Storm for
+  distributed stream processing.
+\item
+  Worked on design and development of Social AD which is a Social Media
+  Advertising Application which targets thousands of users. Developed
+  both UI and backend of the system, as well as database design. I
+  designed software models, database design and architecture of the
+  system.
+\item
+  Worked as a part of the team for development of Cloud Social Media
+  Monitoring application. This application has a multi-tenant
+  architecture and has sub-units like Scoring Social Media Users. I
+  developed Webservices for serving both as provinding data to UI and as
+  storing data into Hbase for backend of the application. I developed
+  distributed Stream processing infrastructure of the system using open
+  source Storm library. Besides I also developed User Interface using
+  Ruby on Rails.
+\item
+  Developed Question and Answer platform using Ruby on Rails and
+  Postgresql. This application is developed in a very short period of
+  time and maintained according to the needs of the client.
+\item
+  Developed a Mass E-Mailing service using Ruby on Rails, Icewarp Mail
+  Server and Mysql. This application can handle the operation of sending
+  100.000 emails daily.
+\stopitemize
+
+{\bf Meteksan Defense Inc. (June 2010- April 2013):}
+
+As a software engineer, I was a part of team that developed one of the
+most important Naval Simulation System projects in Turkey.:
+
+\startitemize
+\item
+  Designed and Developed System Model and Inventory Generator using C++,
+  QT and Oracle DB
+\item
+  Designed and Developed Scenario Generation Tool using C++, QT and
+  Oracle DB
+\item
+  Involved in development of Analysis and Report Tool using C\#, C++,
+  QT, DevExpress, Oracle DB and Sqlite
+\item
+  Designed and Developed Employee Evaluation Application using PHP and
+  Mysql
+\item
+  Designed and Developed Employee Satisfaction Survey with abilities of
+  reporting using Python, Django and Sqlite
+\item
+  Designed and Developed ERP application for Business Development
+  Division using PHP and Mysql
+\stopitemize
+
+\subsection[technical-experience]{Technical Experience}
+
+\startdescription{Technical Tools}
+  {\bf Programming Languages:} Java, C/C++, C\#, Ruby, Python, PHP,
+  JavaScript
+
+  {\bf Libraries:} JUnit, Boost, QT, Ruby on Rails, Django, Primefaces,
+  Storm, Devexpress, OpenCV, Jquery, Backbone.js, Node.js
+
+  {\bf Database:} Oracle 11g R2, Mysql, Postgresql, Sqlite, Nosql(Hbase)
+
+  {\bf Operating Systems:} Linux(Redhat, Centos, Fedora, Ubuntu),
+  Windows(98-Windows 8)
+
+  {\bf Web Servers:} Apache, Nginx, Tomcat, Thin, Unicorn
+
+  {\bf Source Control:} Git, Mercurial, SVN
+
+  {\bf Technical Tools:} Eclipse, Netbeans, VIM, Sublime Text,
+  Enterprise Architect
+
+  {\bf Software Methodlogies:} Object Oriented, Aspect Oriented and
+  Model Driven Software Development, Big Data and Distributed Computing
+
+  {\bf Miscellaneous:} Memcached, Redis, Flask, RabbitMq
+\stopdescription
+
+\subsection[side-projects]{Side Projects}
+
+\startdescription{turkishsixpacks}
+  turkishsixpacks.com, an online magazine for Fitness and Aesthetics
+  enthusiasts. I personally wrote and translated over 100 articles and
+  interviewed more than 20 athletes.
+  \useURL[url1][http://www.turkishsixpacks.com][][link]\from[url1]
+
+  \startitemize[packed]
+  \item
+    Works on Wordpress CMS
+  \stopitemize
+\stopdescription
+
+\startdescription{bireyselantrenor}
+  Web Application for Personal Trainers Developed with {\bf Ruby on
+  Rails}, {\bf Jquery}, {\bf Mysql} and {\bf HTML5} (with
+  \useURL[url2][http://bireyselantrenor.com][][link]\from[url2])
+\stopdescription
+
+\startdescription{Image Recognition Tool}
+  Application for detecting static objects from moving Camera and moving
+  objects from static camera. Developed with {\bf C++}, {\bf OpenCV} and
+  {\bf Matlab}
+\stopdescription
+
+\subsection[awards-and-certifications]{Awards and Certifications}
+
+\startdescription{2010-2012}
+  Tuition scholarship during graduate study by Bilkent University
+\stopdescription
+
+\startdescription{2005-2010}
+  Full scholarship during undergraduate study by Bilkent University
+\stopdescription
+
+\startdescription{2005}
+  Among top 500 students in University Entrance Exam
+\stopdescription
+
+\subsection[additional-skills-and-interests]{Additional Skills and
+Interests}
+
+\startitemize
+\item
+  Spoken Languages:
+
+  \startitemize[packed]
+  \item
+    Turkish (native speaker)
+  \item
+    English (Fluent)
+  \item
+    German (Basic)
+  \stopitemize
+\item
+  Weight Lifting. Fitness
+\item
+  Blogging, writing, reading about Technology
+\stopitemize
+
+\thinrule
+
+\startblockquote
+\useURL[url3][mailto:aytugmurataydin@gmail.com][][\hyphenatedurl{aytugmurataydin@gmail.com}]\from[url3]
+• +90 (533) 716 5329 • 27 years old\crlf
+Address - Ankara, TURKEY
+\stopblockquote
+
+\stoptext
