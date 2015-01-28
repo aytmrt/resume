@@ -33,7 +33,7 @@ utilitydata_job_passes.collected={
   { 6, "0" },
   { 1, "0" },
   { 3, "0" },
-  { 3, "0" },
+  { 6, "0" },
  },
 }
 
@@ -93,7 +93,7 @@ utilitydata_structures_counters.collected={
   { 0 },
  },
  ["itemgroup:itemize"]={
-  { 0, 2, 5, 6, 1, 3 },
+  { 0, 2, 5, 6, 1, 6 },
   { 0, 3, 0, 0 },
  },
  ["linenote"]={
@@ -333,13 +333,13 @@ utilitydata_structures_lists.collected={
   ["references"]={
    ["block"]="bodypart",
    ["internal"]=16,
-   ["realpage"]=2,
-   ["reference"]="additional-skills-and-interests",
+   ["realpage"]=3,
+   ["reference"]="additional-skills-and-information",
    ["section"]=7,
   },
   ["titledata"]={
    ["label"]="subsection",
-   ["title"]="Additional Skills and Interests",
+   ["title"]="Additional Skills and Information",
   },
  },
 }
@@ -378,8 +378,7 @@ local utilitydata_structures = utilitydata.structures if not utilitydata_structu
 local utilitydata_structures_references = utilitydata_structures.references if not utilitydata_structures_references then utilitydata_structures_references = { } utilitydata_structures.references = utilitydata_structures_references end
 
 utilitydata_structures_references.referred={
- { 2, 1 },
- { 3, 3 },
+ { 3, 1 },
 }
 
 local utilitydata_structures = utilitydata.structures if not utilitydata_structures then utilitydata_structures = { } utilitydata.structures = utilitydata_structures end
