@@ -320,7 +320,7 @@ utilitydata_structures_lists.collected={
    ["block"]="bodypart",
    ["internal"]=15,
    ["order"]=9,
-   ["realpage"]=2,
+   ["realpage"]=3,
    ["section"]=6,
   },
   ["titledata"]={
