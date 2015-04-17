@@ -28,10 +28,12 @@ Experience
 
 **Onur Inc. (July 2014-):**
 
+* As a developer, I am part of the team working on Air Defense Radio Network Project. The purpose of the project is to develop a network based communication infrastructure for Air Defence Radio Systems. My main responsibilities:
 
-* Developed Rest Webservice Framework with Python and Flask
+	* Full Stacked Development with Backbone.js, Django and Node.js. Developed both interface modules and message exchange modules for interacting tenants.
 
-* Full Stacked Development with Backbone.js, Django and Node.js 
+	* Developed Rest Webservice Framework with Python and Flask
+
 
 **KorvusSoft (April 2013- July 2014):**
 
