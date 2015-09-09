@@ -3,8 +3,8 @@ Aytuğ Murat AYDIN
 
 ----
 
->  Generalist Software Engineer, experienced in full stacked development,
->  in search of new challenge.
+>  Seeking a challenging software development opportunity in a dynamic environment where innovation, education and sense of ownership is
+>  valued and encouraged.
 
 
 ----
@@ -30,10 +30,11 @@ Experience
 
 * As a developer, I am part of the team working on Air Defense Radio Network Project. The purpose of the project is to develop a network based communication infrastructure for Air Defence Radio Systems. My main responsibilities:
 
-	* Full Stacked Development with Backbone.js, Django and Node.js. Developed both interface modules and message exchange modules for interacting tenants.
+	* Full Stacked Development with Backbone.js, Django 
+	
+	* Developed both interface modules and message exchange modules for interacting tenants with Node.js and Asterisk.
 
 	* Developed Rest Webservice Framework with Python and Flask
-
 
 **KorvusSoft (April 2013- July 2014):**
 
@@ -78,7 +79,7 @@ Technical Experience
 Technical Tools
 :   **Programming Languages:** Java, C/C++, C#, Ruby, Python, PHP, JavaScript
 
-:   **Libraries:** JUnit, Boost, QT, Ruby on Rails, Django, Primefaces, Storm, Devexpress, OpenCV, Jquery, Backbone.js, Node.js 
+:   **Libraries:** JUnit, Boost, QT, Ruby on Rails, Django, Primefaces, Storm, Devexpress, OpenCV, Jquery, Backbone.js, Node.js, Asterisk
 
 :   **Database:** Oracle 11g R2, Mysql, Postgresql, Sqlite, Nosql(Hbase)
    
@@ -133,8 +134,6 @@ Additional Skills and Information
 * Birthdate : 12/23/1987
 
 * E-Mail Address: <aytugmurataydin@gmail.com>
-
-* Website Address: <http://aytugmurataydin.com>
 
 * Spoken Languages:
 

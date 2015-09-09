@@ -28,13 +28,13 @@ local utilitydata_job_passes = utilitydata_job.passes if not utilitydata_job_pas
 
 utilitydata_job_passes.collected={
  ["itemgroup"]={
-  { 2, "0" },
+  { 3, "0" },
   { 1, "0" },
   { 5, "0" },
   { 6, "0" },
   { 1, "0" },
   { 3, "0" },
-  { 6, "0" },
+  { 5, "0" },
  },
 }
 
@@ -94,8 +94,8 @@ utilitydata_structures_counters.collected={
   { 0 },
  },
  ["itemgroup:itemize"]={
-  { 0, 1, 5, 6, 1, 6 },
-  { 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0 },
+  { 0, 1, 5, 6, 1, 5 },
+  { 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0 },
  },
  ["linenote"]={
   { 0 },
